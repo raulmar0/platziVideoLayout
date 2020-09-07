@@ -234,3 +234,14 @@ body {
 ::-webkit-scrollbar:hover:active {
   background: #999;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .footer a {
+    margin-bottom: 5px ;
+  }
+}
